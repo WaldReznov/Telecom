@@ -399,3 +399,118 @@ text-align: center;
 .review-item img{
   margin: 0 auto;
 }
+.contact{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.contact-img{
+  width: 54%;
+  height: 500px;
+  background-color: rgba(17, 17, 17, 0.15); 
+  background: url(../img/call-center-pre-footer.png) no-repeat;
+}
+.contact-action{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 305px;
+  margin-right: 100px;
+}
+.contact-block-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-text{
+  color: #228dfc;
+font-size: 16px;
+font-weight: 300;
+line-height: 36px;
+text-transform: uppercase;
+}
+.contact-input-block{
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  justify-content: space-between;
+}
+.contact-input-item{
+  color: #6d6e6e;
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #b9b9b9;
+}
+.contact-buy{
+  width: 250px;
+  background-color: #228dfc;
+  color: #fdfeff;
+}
+.team{
+  height: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.team-block{
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+.figure-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+}
+.figure-item-text{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.figure-text-title{
+  text-transform: initial;
+}
+.figure-text-subtitle{
+  color: #228dfc;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 36px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3e3e3;
+}
+.footer-main{
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  align-items: center;
+}
+.footer-action{
+  width: 440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-number{
+  color: #228dfc;
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 43px;
+  border: 1px solid #228dfc;
+  background: transparent;
+}
