@@ -23,7 +23,7 @@ nav{
   justify-content: space-between;
   align-items: center;
 }
-ul{
+nav>ul{
   width: 760px;
   display: flex;
   justify-content: space-between;
@@ -173,4 +173,229 @@ h3{
 font-size: 18px;
 font-weight: 300;
 line-height: 45px;
+}
+.business{
+  display: flex;
+}
+.business-img{
+  width: 50%;
+  height: 680px;
+  background: url(../img/working.png) center top no-repeat;
+}
+.business-information{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 80px;
+  width: 550px;
+}
+.business-plan{
+  width: 277px;
+  background-color: #228dfc;
+  color: #fdfeff;
+}
+.business-ul{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40px;
+}
+.business-ul>li{
+  list-style-image: url(/img/list_style_type.png);
+}
+.business-ul{
+  color: #1a1a1a;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 45px;
+}
+.business-consultation{
+  width: 277px;
+}
+.call-center-h3{
+  text-align: center;
+}
+.call-center{
+  height: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.call-center-main{
+  width: 1100px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.call-center-advantages-one{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.call-center-figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.call-center-text,.call-center-people-text{
+  margin-top: 20px;
+  color: #191919;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  width: 277px;
+}
+.call-center-works-figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.call-center-works{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.call-center-advantages-two{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.numbers{
+  display: flex;
+  justify-content: center;
+  background: url(../img/black-white.png) no-repeat;
+  height: 250px;
+  background-color: rgba(20, 20, 20, 0.6);
+}
+.numbers-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+}
+.numbers-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 115px;
+}
+.numbers-item-title{
+  color: #228dfc;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.numbers-item-subtitle{
+  width: 162px;
+  color: #fdfdfe;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+.numbers-border{
+  width: 1px;
+  height: 70px;
+  background-color: #ffffff;
+}
+.l-arrow {
+  z-index: 1;
+  margin-right: 10px;
+}
+
+.r-arrow {
+  margin-left: 10px;
+  z-index: 1;
+}
+
+.r-arrow,.l-arrow{
+  background:none;
+  border:none;
+  cursor:pointer;
+}
+.r-arrow:active,.l-arrow:active,.r-arrow:focus,.l-arrow:focus{
+  outline: none;
+}
+.partners{
+  height: 350px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.carousel{
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.free{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #228dfc;
+}
+.free-main{
+  width: 1140px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.free-text{
+  color: #191919;
+  text-transform: initial;
+}
+.free-consultation{
+  border: 1px solid #fff;
+  color: #fff;
+  width: 277px;
+}
+.WHITE{
+  color:#fff;
+  text-transform: uppercase;
+}
+.review{
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+.review-block{
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+.review-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+  padding: 0 20px;
+}
+.review-text-title{
+  color: #228dfc;
+font-size: 18px;
+font-weight: 400;
+margin: 20px 0;
+text-align: center;
+}
+.review-text-subtitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #1e1e1e;
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+text-align: center;
+}
+.review-item img{
+  margin: 0 auto;
 }
