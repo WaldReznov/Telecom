@@ -12,24 +12,28 @@
   <title>Document</title>
 </head>
 
-<body>
+<body id="body">
   <header>
     <nav>
       <img src="img/Telekom.png" alt="">
-      <ul>
+      <ul class="navbar" id="navbar">
         <li><a class="header-link" href="#">Главная</a></li>
         <li><a class="header-link" href="#">О нас</a></li>
         <li><a class="header-link" href="#">Новости</a></li>
         <li><a class="header-link" href="#">Кейсы</a></li>
         <li><a class="header-link" href="#">Контакты</a></li>
       </ul>
+      <button id="burger"class="menu-link">
+        <span>
+        </span>
+      </button>
     </nav>
     <h2>франшиза колл-центра</h2>
     <h1>Telecom
       <img class="h2-img" src="img/24/24for7.png" alt="">
     </h1>
     <p class="header-text-action">Если театр начинается с вешалки,<br>то бизнес - с гениальной идеи</p>
-    <a href="#" class="header-action">Узнать подробнее</a>
+    <button  class="header-action">Узнать подробнее</button>
     <a href="#" class="drop-down"><img src="img/bottom-.png" alt=""></a>
   </header>
   <section class="staff">
@@ -41,7 +45,7 @@
           <p>от <span>50 000 р.</span></p>
           <p>в месяц</p>
         </div>
-        <a href="#" class="staff-button">Подробнее</a>
+        <button class="staff-button">Подробнее</button>
       </div>
       <div class="staff-border"></div>
       <div class="staff-block-item">
@@ -52,9 +56,9 @@
           <p>до <span>133 000 р.</span></p>
           <p>в месяц</p>
         </div>
-        <a href="#" class="staff-button">Подробнее</a>
+        <button class="staff-button">Подробнее</button>
       </div>
-      <div class="staff-border"></div>
+      <div class="staff-border staff-border-none-1"></div>
       <div class="staff-block-item">
         <h3>10 сотрудников</h3>
         <div class="staff-block-text">
@@ -63,7 +67,7 @@
           <p>до <span>405 000 р.</span></p>
           <p>в месяц</p>
         </div>
-        <a href="#" class="staff-button">Подробнее</a>
+        <button class="staff-button">Подробнее</button>
       </div>
       <div class="staff-border"></div>
       <div class="staff-block-item">
@@ -74,7 +78,7 @@
           <p>до <span>880 000 р.</span></p>
           <p>в месяц</p>
         </div>
-        <a href="#" class="staff-button">Подробнее</a>
+        <button class="staff-button">Подробнее</button>
       </div>
     </div>
     <p class="remark"><span>*</span> Ограничений в заработке нет, чем больше сотрудников, тем больше прибыль</p>
@@ -83,7 +87,7 @@
     <div class="business-img"></div>
     <div class="business-information">
       <h3>стомость франшизы <span>70 000</span> рублей</h3>
-      <a href="" class="staff-button business-plan">Получть Бизнес- план</a>
+      <button class="staff-button business-plan">Получить Бизнес - план</button>
       <h3>что вы получите по франшизе ?</h3>
       <ul class="business-ul">
         <li>пошаговый бизнес-план</li>
@@ -94,11 +98,11 @@
         <li>постоянно пополняемая клиентская база</li>
         <li>личный помощник 24/7</li>
       </ul>
-      <a href="" class="staff-button business-consultation">Получть консультацию</a>
+      <button class="staff-button business-consultation">Получить консультацию</button>
     </div>
   </section>
   <section class="call-center">
-    <h3 class="call-center-h3">почему выгодно открыть свой колл-центр<br>
+    <h3 class="call-center-h3">почему выгодно открыть свой колл-центр
       именно по продвижению банковских продуктов ?</h3>
     <div class="call-center-main">
       <div class="call-center-advantages-one">
@@ -125,20 +129,20 @@
         <figure class="call-center-works-figure">
           <img src="img/call-center-people.png" alt="">
           <figurecaption class="call-center-people-text">
-            <a href="" class="staff-button business-plan">Получть Бизнес- план</a>
+            <button  class="staff-button business-plan">Получть Бизнес- план</button>
           </figurecaption>
         </figure>
       </div>
       <div class="call-center-advantages-two">
         <figure class="call-center-figure">
           <img src="img/briefs.png" alt="">
-          <figurecaption class="call-center-text">
+          <figurecaption class="call-center-big-text">
             <p>не требуется профессиональных навыков</p>
           </figurecaption>
         </figure>
         <figure class="call-center-figure">
           <img src="img/deal.png" alt="">
-          <figurecaption class="call-center-text">
+          <figurecaption class="call-center-big-text">
             <p>мы работаем напрямую с банками, а это всегда надежные и стабильные партнеры</p>
           </figurecaption>
         </figure>
@@ -157,7 +161,7 @@
         <p class="numbers-item-title">110</p>
         <p class="numbers-item-subtitle">штат собственных операторов</p>
       </div>
-      <div class="numbers-border"></div>
+      <div class="numbers-border staff-border-none-1"></div>
       <div class="numbers-item">
         <p class="numbers-item-title">14</p>
         <p class="numbers-item-subtitle">предприятий открытых по франшизе</p>
@@ -175,7 +179,6 @@
     <div class="carousel">
       <div><img src="img/bank1.png" alt=""></div>
       <div><img src="img/bank2.png" alt=""></div>
-      <div><img src="img/bank3.png" alt=""></div>
       <div><img src="img/bank4.png" alt=""></div>
       <div><img src="img/bank3.png" alt=""></div>
     </div>
@@ -184,32 +187,40 @@
   <section class="free">
     <div class="free-main">
       <h3 class="free-text">Получите косультацию <span class="WHITE">бесплатно</span>, оставьте заявку</h3>
-      <a href="" class="staff-button free-consultation">Получть консультацию</a>
+      <button class="staff-button free-consultation">Получть консультацию</button>
     </div>
   </section>
 
   <section class="review">
     <h3>отзывы наших франчайзи</h3>
     <div class="review-block">
-      <div class="review-item">
-        <img src="img/head.png" alt="">
-        <p class="review-text-title">Наталья Иванова</p>
-        <p class="review-text-subtitle">«Девочки, привет! Начала собирать приданое для малыша и наткнулась на интернет-магазин Butterfly, который поставляет текстиль для малышей итальянского производства. Нашла у них потрясающие конверты на выписку и прогулку. Порадовало, что все конверты имеют прорезь для автокресла, отличного качества и дизайна. </p>
+      <div class="review-cour">
+        <div class="review-item">
+          <img src="img/head.png" alt="">
+          <p class="review-text-title">Наталья Иванова</p>
+          <p class="review-text-subtitle">«Девочки, привет! Начала собирать приданое для малыша и наткнулась на интернет-магазин Butterfly, который поставляет текстиль для малышей итальянского производства. Нашла у них потрясающие конверты на выписку и прогулку. Порадовало, что все конверты имеют прорезь для автокресла, отличного качества и дизайна. Купила голубой конвертик с бабочкой))) раз у нас мальчик в самый раз! Доставка тоже радует – при покупке от 3 000 рублей, все доставляют бесплатно и по всей России! </p>
+        </div>
       </div>
-      <div class="review-item">
-        <img src="img/head.png" alt="">
-        <p class="review-text-title">Наталья Иванова</p>
-        <p class="review-text-subtitle">«Девочки, привет! Начала собирать приданое для малыша и наткнулась на интернет-магазин Butterfly, который поставляет текстиль для малышей итальянского производства. Нашла у них потрясающие конверты на выписку и прогулку. Порадовало, что все конверты имеют прорезь для автокресла, отличного качества и дизайна. Купила голубой конвертик с бабочкой))) раз у нас мальчик в самый раз! Доставка тоже радует – при покупке от 3 000 рублей, все доставляют бесплатно и по всей России! </p>
+      <div class="review-cour">
+        <div class="review-item">
+          <img src="img/head.png" alt="">
+          <p class="review-text-title">Наталья Иванова</p>
+          <p class="review-text-subtitle">«Девочки, привет! Начала собирать приданое для малыша и наткнулась на интернет-магазин Butterfly, который поставляет текстиль для малышей итальянского производства. Нашла у них потрясающие конверты на выписку и прогулку. Порадовало, что все конверты имеют прорезь для автокресла, отличного качества и дизайна. Купила голубой конвертик с бабочкой))) раз у нас мальчик в самый раз! Доставка тоже радует – при покупке от 3 000 рублей, все доставляют бесплатно и по всей России! </p>
+        </div>
       </div>
-      <div class="review-item">
-        <img src="img/head.png" alt="">
-        <p class="review-text-title">Наталья Иванова</p>
-        <p class="review-text-subtitle">«Девочки, привет! Начала собирать приданое для малыша и наткнулась на интернет-магазин Butterfly, который поставляет текстиль для малышей итальянского производства. Нашла у них потрясающие конверты на выписку и прогулку. Порадовало, что все конверты имеют прорезь для автокресла, отличного качества и дизайна. Купила голубой конвертик с бабочкой))) раз у нас мальчик в самый раз! </p>
+      <div class="review-cour">
+        <div class="review-item">
+          <img src="img/head.png" alt="">
+          <p class="review-text-title">Наталья Иванова</p>
+          <p class="review-text-subtitle">«Девочки, привет! Начала собирать приданое для малыша и наткнулась на интернет-магазин Butterfly, который поставляет текстиль для малышей итальянского производства. Нашла у них потрясающие конверты на выписку и прогулку. Порадовало, что все конверты имеют прорезь для автокресла, отличного качества и дизайна. Купила голубой конвертик с бабочкой))) раз у нас мальчик в самый раз! Доставка тоже радует – при покупке от 3 000 рублей, все доставляют бесплатно и по всей России! </p>
+        </div>
       </div>
-      <div class="review-item">
-        <img src="img/head.png" alt="">
-        <p class="review-text-title">Наталья Иванова</p>
-        <p class="review-text-subtitle">«Девочки, привет! Начала собирать приданое для малыша и наткнулась на интернет-магазин Butterfly, который поставляет текстиль для малышей итальянского производства. Нашла у них потрясающие конверты на выписку и прогулку. Порадовало, что все конверты имеют прорезь для автокресла, отличного качества и дизайна. </p>
+      <div class="review-cour">
+        <div class="review-item">
+          <img src="img/head.png" alt="">
+          <p class="review-text-title">Наталья Иванова</p>
+          <p class="review-text-subtitle">«Девочки, привет! Начала собирать приданое для малыша и наткнулась на интернет-магазин Butterfly, который поставляет текстиль для малышей итальянского производства. Нашла у них потрясающие конверты на выписку и прогулку. Порадовало, что все конверты имеют прорезь для автокресла, отличного качества и дизайна. Купила голубой конвертик с бабочкой))) раз у нас мальчик в самый раз! Доставка тоже радует – при покупке от 3 000 рублей, все доставляют бесплатно и по всей России! </p>
+        </div>
       </div>
     </div>
   </section>
