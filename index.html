@@ -15,7 +15,7 @@
 <body id="body">
   <header>
     <nav>
-      <img src="img/Telekom.png" alt="">
+      <img class="header-nav-img"src="img/Telekom.png" alt="">
       <ul class="navbar" id="navbar">
         <li><a class="header-link" href="#">Главная</a></li>
         <li><a class="header-link" href="#">О нас</a></li>
@@ -34,20 +34,20 @@
     </h1>
     <p class="header-text-action">Если театр начинается с вешалки,<br>то бизнес - с гениальной идеи</p>
     <button  class="header-action">Узнать подробнее</button>
-    <a href="#" class="drop-down"><img src="img/bottom-.png" alt=""></a>
+    <a href="#staff-block1" class="drop-down"><img src="img/bottom-.png" alt=""></a>
   </header>
   <section class="staff">
     <div class="staff-block">
-      <div class="staff-block-item">
+      <div id ="staff-block1"class="staff-block-item">
         <h3>1 сотрудник <span class="h3-span">(вы)</span></h3>
         <div class="staff-block-text">
           <p>заработок</p>
           <p>от <span>50 000 р.</span></p>
           <p>в месяц</p>
         </div>
-        <button class="staff-button">Подробнее</button>
+        <button class="staff-button button-modal">Подробнее</button>
       </div>
-      <div class="staff-border"></div>
+      <div class="staff-border display-none-mobile"></div>
       <div class="staff-block-item">
         <h3>5 сотрудников</h3>
         <div class="staff-block-text">
@@ -56,7 +56,7 @@
           <p>до <span>133 000 р.</span></p>
           <p>в месяц</p>
         </div>
-        <button class="staff-button">Подробнее</button>
+        <button class="staff-button button-modal">Подробнее</button>
       </div>
       <div class="staff-border staff-border-none-1"></div>
       <div class="staff-block-item">
@@ -67,9 +67,9 @@
           <p>до <span>405 000 р.</span></p>
           <p>в месяц</p>
         </div>
-        <button class="staff-button">Подробнее</button>
+        <button class="staff-button button-modal">Подробнее</button>
       </div>
-      <div class="staff-border"></div>
+      <div class="staff-border display-none-mobile"></div>
       <div class="staff-block-item">
         <h3>20 сотрудников</h3>
         <div class="staff-block-text">
@@ -78,7 +78,7 @@
           <p>до <span>880 000 р.</span></p>
           <p>в месяц</p>
         </div>
-        <button class="staff-button">Подробнее</button>
+        <button class="staff-button button-modal">Подробнее</button>
       </div>
     </div>
     <p class="remark"><span>*</span> Ограничений в заработке нет, чем больше сотрудников, тем больше прибыль</p>
@@ -87,7 +87,7 @@
     <div class="business-img"></div>
     <div class="business-information">
       <h3>стомость франшизы <span>70 000</span> рублей</h3>
-      <button class="staff-button business-plan">Получить Бизнес - план</button>
+      <button class="staff-button business-plan button-modal">Получить Бизнес - план</button>
       <h3>что вы получите по франшизе ?</h3>
       <ul class="business-ul">
         <li>пошаговый бизнес-план</li>
@@ -98,7 +98,7 @@
         <li>постоянно пополняемая клиентская база</li>
         <li>личный помощник 24/7</li>
       </ul>
-      <button class="staff-button business-consultation">Получить консультацию</button>
+      <button class="staff-button business-consultation button-modal">Получить консультацию</button>
     </div>
   </section>
   <section class="call-center">
@@ -127,9 +127,9 @@
       </div>
       <div class="call-center-works">
         <figure class="call-center-works-figure">
-          <img src="img/call-center-people.png" alt="">
+          <img class="call-center-img"src="img/call-center-people.png" alt="">
           <figurecaption class="call-center-people-text">
-            <button  class="staff-button business-plan">Получть Бизнес- план</button>
+            <button  class="staff-button business-plan button-modal">Получить Бизнес- план</button>
           </figurecaption>
         </figure>
       </div>
@@ -156,7 +156,7 @@
         <p class="numbers-item-title">2014</p>
         <p class="numbers-item-subtitle">год основания</p>
       </div>
-      <div class="numbers-border"></div>
+      <div class="numbers-border display-none-mobile"></div>
       <div class="numbers-item">
         <p class="numbers-item-title">110</p>
         <p class="numbers-item-subtitle">штат собственных операторов</p>
@@ -166,7 +166,7 @@
         <p class="numbers-item-title">14</p>
         <p class="numbers-item-subtitle">предприятий открытых по франшизе</p>
       </div>
-      <div class="numbers-border"></div>
+      <div class="numbers-border display-none-mobile"></div>
       <div class="numbers-item">
         <p class="numbers-item-title">3</p>
         <p class="numbers-item-subtitle">собственных офиса</p>
@@ -187,7 +187,7 @@
   <section class="free">
     <div class="free-main">
       <h3 class="free-text">Получите косультацию <span class="WHITE">бесплатно</span>, оставьте заявку</h3>
-      <button class="staff-button free-consultation">Получть консультацию</button>
+      <button class="staff-button free-consultation button-modal">Получить консультацию</button>
     </div>
   </section>
 
@@ -226,7 +226,7 @@
   </section>
 
   <section class="contact">
-    <div class="contact-action">
+    <form action="click" class="contact-action">
       <div class="contact-block-text">
         <h3>хотите так же ?</h3>
         <p class="contact-text">оставьте заявку на франшизу</p>
@@ -235,8 +235,8 @@
         <input type="text" class="contact-text contact-input-item" placeholder="ИМЯ" name="" id="">
         <input type="text" class="contact-text contact-input-item" placeholder="ТЕЛЕФОН" name="" id="">
       </div>
-      <a href="" class="staff-button contact-buy">Купить франшизу</a>
-    </div>
+      <button class="staff-button contact-buy">Купить франшизу</button>
+    </form>
     <div class="contact-img"></div>
   </section>
 
@@ -279,10 +279,28 @@
       <img src="img/Telekom_копия.png" alt="">
       <div class="footer-action">
         <p class="footer-number">+7 495 775 8800</p>
-        <button class="footer-number footer-button">Заказать звонок</button>
+        <button class="footer-number footer-button button-modal">Заказать звонок</button>
       </div>
     </div>
   </footer>
+
+  <section id="modal"class="modal">
+      <div class="modal-main-background">
+        <form action="" class="modal-main">
+          <div class="modal-main-title">
+            <div class="border-modal"></div>
+            <h3 class="modal-h3">Заказать</h3>
+            <div class="border-modal"></div>
+          </div>
+          <input class="contact-text contact-input-item modal-input"type="text" name="" id="" placeholder="Ваше имя">
+          <input class="contact-text contact-input-item modal-input"type="number" name="" id="" placeholder="Ваш телефон">
+          <input class="contact-text contact-input-item modal-input"type="email" name="" id="" placeholder="Ваш e-mail">
+          <p class="modal-text">Оставьте заявку и мы Вам перезвоним!</p>
+          <button class="modal-blue">Заказать</button>
+        </form>
+        <button class="modal-white button-modal">Закрыть</button>
+      </div>
+  </section>
   <script type="text/javascript" src="script/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="script/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>

@@ -49,4 +49,15 @@ $(document).ready(function(){
   document.getElementById("navbar").classList.toggle("hamburger-navbar");
   document.getElementById("body").classList.toggle("scroll");
   };
+  var buttonClick = document.getElementsByClassName('button-modal');
+   for (i=0; i< buttonClick.length; i++)
+   buttonClick[i].onclick = function()
+  { modal();
+  };
+  function modal(){
+  document.getElementById("modal").classList.toggle("modal-active");
+  };
+  document.getElementById("modal").onclick=function(){
+    document.getElementById("modal").classList.remove("modal-active");
+  }
 });
